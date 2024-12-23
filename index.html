@@ -17,7 +17,7 @@
         header {
             background-color: #333;
             color: white;
-            padding: 1rem 0;
+            padding: 2rem 0;
             text-align: center;
         }
 
@@ -35,6 +35,7 @@
 
         header p {
             margin: 0.5rem 0 0;
+            font-size: 1.2rem;
         }
 
         nav {
@@ -71,7 +72,16 @@
         }
 
         .timeline li {
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .timeline li strong {
+            font-size: 1.1rem;
+        }
+
+        .timeline li p {
+            margin: 0.5rem 0 0;
+            color: #555;
         }
 
         .skills {
@@ -84,6 +94,19 @@
             background: #ddd;
             padding: 0.5rem 1rem;
             border-radius: 15px;
+        }
+
+        .project {
+            margin-bottom: 1.5rem;
+        }
+
+        .project strong {
+            font-size: 1.1rem;
+        }
+
+        .project p {
+            margin: 0.5rem 0 0;
+            color: #555;
         }
 
         footer {
@@ -100,7 +123,7 @@
 <header>
     <img src="your-photo.jpg" alt="Your Photo">
     <h1>Your Name</h1>
-    <p>Professional Title | Contact: your.email@example.com</p>
+    <p>Professional Title | Contact: your.email@example.com | LinkedIn | GitHub</p>
 </header>
 
 <nav>
@@ -113,14 +136,21 @@
 
 <section id="about">
     <h2>About Me</h2>
-    <p>Write a brief introduction about yourself, your career goals, and what you are passionate about.</p>
+    <p>Hello! I am a [your profession], passionate about [specific interests or fields]. With a background in [specific field or expertise], I specialize in [key skills]. I am dedicated to delivering high-quality work and am always eager to learn and grow.</p>
+    <p>In my free time, I enjoy [hobbies or activities].</p>
 </section>
 
 <section id="education">
     <h2>Education</h2>
     <ul class="timeline">
-        <li><strong>Degree, Major</strong> - Institution Name (Year)</li>
-        <li><strong>Another Degree</strong> - Institution Name (Year)</li>
+        <li>
+            <strong>Bachelor of Science in [Major]</strong> - [Institution Name] (Graduation Year)
+            <p>Achievements: [Scholarships, honors, or relevant activities]</p>
+        </li>
+        <li>
+            <strong>High School Diploma</strong> - [Institution Name] (Graduation Year)
+            <p>Achievements: [Awards or extracurriculars]</p>
+        </li>
     </ul>
 </section>
 
@@ -128,42 +158,48 @@
     <h2>Work Experience</h2>
     <ul class="timeline">
         <li>
-            <strong>Job Title</strong> - Company Name (Year - Year)
-            <p>Brief description of your responsibilities and achievements.</p>
+            <strong>[Job Title]</strong> - [Company Name] (Year - Year)
+            <p>Responsibilities:</p>
+            <ul>
+                <li>[Responsibility or achievement 1]</li>
+                <li>[Responsibility or achievement 2]</li>
+            </ul>
         </li>
         <li>
-            <strong>Another Job Title</strong> - Company Name (Year - Year)
-            <p>Brief description of your responsibilities and achievements.</p>
+            <strong>[Job Title]</strong> - [Company Name] (Year - Year)
+            <p>Responsibilities:</p>
+            <ul>
+                <li>[Responsibility or achievement 1]</li>
+                <li>[Responsibility or achievement 2]</li>
+            </ul>
         </li>
     </ul>
 </section>
 
 <section id="projects">
     <h2>Projects</h2>
-    <ul class="timeline">
-        <li>
-            <strong>Project Title</strong>
-            <p>Description of the project, tools/technologies used, and your role.</p>
-        </li>
-        <li>
-            <strong>Another Project</strong>
-            <p>Description of the project, tools/technologies used, and your role.</p>
-        </li>
-    </ul>
+    <div class="project">
+        <strong>[Project Name]</strong>
+        <p>Description: [What the project is about, tools used, and results achieved]</p>
+    </div>
+    <div class="project">
+        <strong>[Another Project Name]</strong>
+        <p>Description: [What the project is about, tools used, and results achieved]</p>
+    </div>
 </section>
 
 <section id="skills">
     <h2>Skills</h2>
     <div class="skills">
-        <span>Skill 1</span>
-        <span>Skill 2</span>
-        <span>Skill 3</span>
-        <span>Skill 4</span>
+        <span>Programming: [Languages]</span>
+        <span>Frameworks: [Frameworks]</span>
+        <span>Tools: [Tools]</span>
+        <span>Soft Skills: [Skills]</span>
     </div>
 </section>
 
 <footer>
-    <p>&copy; 2024 Your Name. All rights reserved.</p>
+    <p>&copy; 2024 Your Name. All rights reserved. | <a href="#">Privacy Policy</a></p>
 </footer>
 
 </body>
