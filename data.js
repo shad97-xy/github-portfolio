@@ -1,8 +1,8 @@
 export const bio = [
   "I'm Shadman Mubashir , a Mechanical Design Engineer passionate about crafting innovative solutions and driving excellence in engineering design with a degree in Mechatronics Engineering",
   "I've developed a solid foundation in both mechanical and electronic systems, enabling me to approach complex challenges with a versatile and holistic perspective.",
-  "Beyond technical skills, I am continuously exploring new methodologies and advancements in mechanical design. I’m eager to expand my expertise in CAD, product development, and engineering project management while collaborating with like-minded professionals. I’m excited to connect with others who share a passion for engineering innovation and look forward to contributing value to both my team and the industry. " ,
-  "Feel free to reach out—I’d love to discuss ideas, projects, or opportunities to collaborate!" ,
+  // "Beyond technical skills, I am continuously exploring new methodologies and advancements in mechanical design. I’m eager to expand my expertise in CAD, product development, and engineering project management while collaborating with like-minded professionals. I’m excited to connect with others who share a passion for engineering innovation and look forward to contributing value to both my team and the industry. " ,
+  // "Feel free to reach out—I’d love to discuss ideas, projects, or opportunities to collaborate!" ,
 ];
 
 export const skills = [
